@@ -1,0 +1,22 @@
+.root{
+	-fx-background-image: url("file:option.jpg");
+	-fx-background-size: cover;
+	-fx-background-repeat: no-repeat;
+}
+.label{
+	-fx-font-weight:bold;
+	-fx-text-fill: linear-gradient(#2F4F4F, #383838);
+	-fx-font-family: "Brush Script MT";
+	-fx-font-size: 25pt;
+}
+.button{
+	-fx-font-family: "Brush Script MT";
+	-fx-font-weight: bold;
+	-fx-text-fill: linear-gradient(#F0F8FF, #F0F8FF);
+	-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+	-fx-font-size: 15pt;
+	-fx-background-radius:8;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}

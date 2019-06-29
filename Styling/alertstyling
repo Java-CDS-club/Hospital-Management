@@ -1,0 +1,22 @@
+.root{
+	-fx-background-color: linear-gradient(#383838, #585858);
+	-fx-background-image: url("file:alert.jpg");
+	-fx-background-size: cover;
+	-fx-background-repeat: no-repeat;
+}
+.label{
+   -fx-font-size: 13px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+}
+.button{
+	-fx-font-weight: bold;
+	-fx-text-fill: linear-gradient(#F0F8FF, #F0F8FF);
+	-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+	-fx-background-radius: 8;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
